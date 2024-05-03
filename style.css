@@ -6,14 +6,26 @@
     --fundo-senha: rgb(143, 182, 233);
     --fundo-texto: rgb(136, 187, 228);
     --borda: rgb(111, 237, 253);
+    --roboto: 'Roboto' , sans-serif;
+    --roboto-mono: 'Roboto Mono' , monospace;
 }
 
 body{
     color:var(--branco);
     background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
 }
 
 .conteudo-titulo{
     text-align: center;
     margin-top: 80px;
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
 }
